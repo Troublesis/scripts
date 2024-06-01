@@ -6,6 +6,7 @@
 # This script sets up a CentOS instance with the following tools:
 # - Zsh
 # - Git
+# - Vim
 # It also installs Docker and its dependencies, then starts the Docker service.
 
 # Function to handle errors and exit
@@ -17,8 +18,8 @@ handle_error() {
 echo "Starting CentOS instance setup..."
 
 # Install basic tools
-echo "Installing Zsh and Git..."
-yum install zsh git -y || handle_error "Failed to install basic tools"
+echo "Installing Zsh, Vim and Git..."
+yum install zsh vim git -y || handle_error "Failed to install basic tools"
 
 # Add Docker repository
 echo "Adding Docker repository..."
