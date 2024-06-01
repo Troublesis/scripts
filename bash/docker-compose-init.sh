@@ -5,10 +5,10 @@ cd /docker || { echo "Failed to change directory to /docker"; exit 1; }
 
 # Create a root docker project folder
 read -p "Enter root folder name for docker project: " -a root
-cd "$root"
+cd "./$root"
 
 # Create a docker-compose.yml file in the folder
-sudo touch "docker-compose.yml"
+sudo touch "./docker-compose.yml"
 echo "Created file: /docker/$root/docker-compose.yml"
 
 # Ask for a list of folder names
