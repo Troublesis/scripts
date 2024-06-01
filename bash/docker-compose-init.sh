@@ -2,7 +2,7 @@
 # curl -fsSL https://raw.githubusercontent.com/Troublesis/scripts/main/bash/docker-compose-init.sh | bash
 
 # Change directory to /docker
-cd /docker || sudo mkdir /docker"; exit 1; }
+cd /docker || { sudo mkdir /docker"; exit 1; }
 
 # Create a root docker project folder
 read -p "Enter root folder name for docker project: " -a root
