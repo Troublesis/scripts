@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change directory to /docker
-cd /docker || { echo "Failed to change directory to /docker"; exit 1; }
+cd /docker || sudo mkdir /docker"; exit 1; }
 
 # Create a root docker project folder
 read -p "Enter root folder name for docker project: " -a root
