@@ -1,4 +1,5 @@
 #!/bin/bash
+# curl -fsSL https://raw.githubusercontent.com/Troublesis/scripts/main/bash/docker-compose-init.sh | bash
 
 # Change directory to /docker
 cd /docker || sudo mkdir /docker"; exit 1; }
