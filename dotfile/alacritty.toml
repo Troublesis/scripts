@@ -1,3 +1,6 @@
+# brew install --cask alacritty
+# brew install --cask font-meslo-lg-nerd-font
+
 import = [
     "~/.config/alacritty/themes/themes/aura-theme.toml"
 ]
