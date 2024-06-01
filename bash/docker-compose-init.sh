@@ -35,3 +35,5 @@ do
 done
 
 echo "All folders and files created successfully."
+
+sudo rm docker-compose-init.sh
