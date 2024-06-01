@@ -1,6 +1,6 @@
 #!/bin/bash
 # install script
-# curl -fsSL https://raw.githubusercontent.com/Troublesis/scripts/bash/yum-instance-setup.sh | bash
+# curl -fsSL https://raw.githubusercontent.com/Troublesis/scripts/main/bash/yum-instance-setup.sh | bash
 
 # Description:
 # This script sets up a CentOS instance with the following tools:
